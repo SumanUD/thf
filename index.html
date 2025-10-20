@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxury Homepage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a2d9d5a62a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <button class="menu-toggle" aria-expanded="false" aria-label="Open menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <div class="logo">
+      <img src="./assets/THF Logo.png" alt="Logo" />
+    </div>
+    <div class="header-utils">
+      <button class="icon"><i class="fa fa-search"></i></button>
+      <button class="icon"><i class="fa fa-map-marker"></i></button>
+      <button class="icon"><i class="fa fa-heart"></i></button>
+    </div>
+  </header>
+
+  <!-- VIDEO BANNER -->
+  <section class="video-banner">
+    <video autoplay muted loop playsinline>
+      <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="video-overlay">
+      <h1>Experience Luxury Sweets</h1>
+      <p>Indulge in the finest delicacies crafted with perfection</p>
+      <a href="#categories" class="btn">Explore Categories</a>
+    </div>
+  </section>
+
+  <!-- FULL-WIDTH CATEGORY BANNERS -->
+    <section class="categories">
+    <div class="category-banner" style="background-image: url('./assets/cat.jpg');">
+        <div class="category-content">
+        <h2>Chocolates</h2>
+        <p>Decadent handmade chocolates for every occasion</p>
+        <a href="#" class="btn">Discover More</a>
+        </div>
+    </div>
+
+    <div class="category-banner" style="background-image: url('./assets/cat2.jpg');">
+        <div class="category-content">
+        <h2>Cakes</h2>
+        <p>Exquisite cakes crafted with fresh ingredients</p>
+        <a href="#" class="btn">Discover More</a>
+        </div>
+    </div>
+
+    <div class="category-banner" style="background-image: url('./assets/cat3.jpg');">
+        <div class="category-content">
+        <h2>Pastries</h2>
+        <p>Delightful pastries that mesmerize your taste buds</p>
+        <a href="#" class="btn">Discover More</a>
+        </div>
+    </div>
+    </section>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="./assets/THF Logo.png" alt="THF Logo">
+      </div>
+      <div class="footer-links">
+        <a href="#">Home</a>
+        <a href="#">Categories</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer-socials">
+        <a href="#"><i class="fa fa-facebook-f"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+      </div>
+      <p class="footer-copy">&copy; 2025 THF Sweets. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
